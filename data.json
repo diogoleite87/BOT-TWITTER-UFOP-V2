@@ -1,0 +1,40 @@
+[
+    {
+        "period": "2023/2",
+        "validity_from": "2023-09-02",
+        "validity_to": "2024-02-24",
+        "commemorative_dates": [ 
+            {
+                "validity_from": "2023-09-02",
+                "validity_to": "2023-09-18",
+                "date": "2023-09-18",
+                "message": "PRIMEIRO AJUSTE"
+            },
+            {
+                "validity_from": "2023-09-19",
+                "validity_to": "2023-09-20",
+                "date": "2023-09-20",
+                "message": "SEGUNDO AJUSTE"
+            },
+            {
+                "validity_from": "2023-09-21",
+                "validity_to": "2023-09-28",
+                "date": "2023-09-28",
+                "message": "TERCEIRO AJUSTE"
+            },
+            {
+                "validity_from": "2023-09-25",
+                "validity_to": "2023-10-26",
+                "date": "2023-10-26",
+                "message": "FIM DO PERÍODO TRANCAMENTO"
+            },
+            {
+                "validity_from": "2023-09-25",
+                "validity_to": "2024-02-24",
+                "date": "2024-02-24",
+                "message": "FIM DO PERÍODO"
+            }
+        ],
+        "advertising": null
+    }
+]
