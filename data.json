@@ -3,6 +3,7 @@
         "period": "2023/2",
         "validity_from": "2023-09-02",
         "validity_to": "2024-02-24",
+        "warning_message": null,
         "commemorative_dates": [ 
             {
                 "validity_from": "2023-09-02",
