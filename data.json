@@ -8,33 +8,39 @@
                 "validity_from": "2023-09-02",
                 "validity_to": "2023-09-18",
                 "date": "2023-09-18",
-                "message": "PRIMEIRO AJUSTE DE MATRÍCULA"
+                "message": "PRIMEIRO AJUSTE DE MATRÍCULA",
+                "progress_bar": null
             },
             {
                 "validity_from": "2023-09-19",
                 "validity_to": "2023-09-20",
                 "date": "2023-09-20",
-                "message": "SEGUNDO AJUSTE DE MATRÍCULA"
+                "message": "SEGUNDO AJUSTE DE MATRÍCULA",
+                "progress_bar": null
             },
             {
                 "validity_from": "2023-09-21",
                 "validity_to": "2023-09-28",
                 "date": "2023-09-28",
-                "message": "TERCEIRO AJUSTE DE MATRÍCULA"
+                "message": "TERCEIRO AJUSTE DE MATRÍCULA",
+                "progress_bar": null
             },
             {
                 "validity_from": "2023-09-25",
                 "validity_to": "2023-10-26",
                 "date": "2023-10-26",
-                "message": "FIM DO PERÍODO TRANCAMENTO"
+                "message": "FIM DO PERÍODO TRANCAMENTO",
+                "progress_bar": null
             },
             {
                 "validity_from": "2023-09-25",
                 "validity_to": "2024-02-24",
                 "date": "2024-02-24",
-                "message": "FIM DO PERÍODO"
+                "message": "FIM",
+                "progress_bar": {
+                    "message": "do período concluído."
+                }
             }
-        ],
-        "advertising": null
+        ]
     }
 ]
