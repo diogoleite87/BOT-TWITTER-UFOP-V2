@@ -2,6 +2,7 @@ from api import client_v1, client_v2
 from datetime import date
 import json
 from PIL import Image, ImageDraw
+import matplotlib.pyplot as plt
 
 
 def is_within_validity_period(current_date, validity_from, validity_to):
@@ -24,8 +25,8 @@ def day_counter(current_date, date_to):
 def create_progress_bar(total_days, days_remaining, filename):
     progress_percentage = (total_days - days_remaining) / total_days * 100
 
-    width = 250
-    height = 50
+    width = 500
+    height = 100
     image = Image.new('RGB', (width, height), color='white')
 
     draw = ImageDraw.Draw(image)
@@ -39,7 +40,12 @@ def create_progress_bar(total_days, days_remaining, filename):
     bar_width = int((width - 20) * progress_percentage / 100)
     draw.rectangle([(10, 10), (10 + bar_width, height - 10)], fill='#8B0000')
 
-    image.save(filename)
+    dpi = 96
+    plt.figure(figsize=(width/dpi, height/dpi), dpi=dpi)
+    plt.imshow(image)
+    plt.axis('off') 
+
+    plt.savefig(filename, bbox_inches='tight', pad_inches=0.1, dpi=dpi)
 
 
 def post_message(message, total_days, days_remaining, progress_bar, warning_message):
